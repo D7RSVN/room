@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Room homepage</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+    <div class="slider__warpper">
+      <nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <a href="" class="logo">
+            <img src="../images/logo.svg" alt="">
+        </a>
+            <ul class="nav-items">
+                <li class="nav-item">
+                    <a href="./" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./shop" class="nav-link">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+    </nav>
+        <section class="slides-nav">
+              <button class="slides-nav__prev js-prev"><img src="./images/icon-angle-left.svg" alt="prev"></button>
+              <button class="slides-nav__next js-next"><img src="./images/icon-angle-right.svg" alt="next"></button> 
+          </section>
+        <div class="flex__container flex--1 flex--active" data-slide="0">
+          <div class="flex__item flex__item--left">
+            <div class="flex__content">
+                <h1 class="text--big">Discover innovative ways to decorate</h1>
+                <p class="text--normal">We provide unmatched quality, comfort, and style for property owners across the country. 
+                Our experts combine form and function in bringing your vision to life. Create a room in your 
+                own style with our collection and make your property a reflection of you and what you love.</p>
+                <a href="#" class="shop-now">Shop now <img src="./images/icon-arrow.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="flex__item flex__item--right">
+              <img class="furniture__img" src="./images/desktop-image-hero-1.jpg" />
+          </div>
+        </div>
+        <div class="flex__container flex--2 animate--start" data-slide="1">
+          <div class="flex__item flex__item--left">
+            <div class="flex__content">
+              <h1 class="text--big">We are available all across the globe</h1>
+              <p class="text--normal">With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+                Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+                store locator. Any questions? Don't hesitate to contact us today.</p>
+                <a href="#" class="shop-now">Shop now <img src="./images/icon-arrow.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="flex__item flex__item--right">
+              <img class="furniture__img" src="./images/desktop-image-hero-2.jpg" />
+          </div>
+        </div>
+        <div class="flex__container flex--3 animate--start" data-slide="2">
+          <div class="flex__item flex__item--left">
+            <div class="flex__content">
+              <h1 class="text--big">Manufactured with the best materials</h1>
+              <p class="text--normal">Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+                to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+                experience in this industry, we understand what customers want for their home and office.</p>
+                <a href="#" class="shop-now">Shop now <img src="./images/icon-arrow.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="flex__item flex__item--right">
+              <img class="furniture__img" src="./images/desktop-image-hero-3.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="about-warpper">
+          <img src="./images/image-about-dark.jpg" alt="" class="about__img img--dark">
+          <section class="about__content">
+              <h2>About our furniture</h2>
+              <p class="text--normal">Our multifunctional collection blends design and function to suit your individual taste.
+                Make each room unique, or pick a cohesive theme that best express your interests and what
+                inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+                or anything in between. Product specialists are available to help you create your dream space.</p>
+          </section>
+          <img src="./images/image-about-light.jpg" alt="" class="about__img img--light">
+      </div>
+      <script src="./js/script.js"></script>
+</body>
+</html>
